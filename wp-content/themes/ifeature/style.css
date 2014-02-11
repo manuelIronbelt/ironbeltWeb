@@ -550,6 +550,13 @@ blockquote cite:before {
 article.post p, article.page p {
 	font-size: 1.1em;
 	line-height: 1.5em;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#contactFormDiv p
+{
+	margin: 10px 0px;
 }
 
 /*==================================== IMAGES ==========================================================*/
@@ -1262,4 +1269,9 @@ h2.box-widget-title {
 	border-color: #888888 #666666 #666666 #666666;
 	color: #ffffff;
 	text-shadow: 0 1px 0 #000000;
+}
+
+#credit
+{
+	display: none !important;
 }
