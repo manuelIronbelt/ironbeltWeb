@@ -217,7 +217,7 @@ header #search #searchform {
 .main-navigation .nav > li > a {
 	display: block;
 	color: #ffffff;
-	font-size: 1.1em;
+	font-size: 1em;
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -557,6 +557,23 @@ article.post p, article.page p {
 #contactFormDiv p
 {
 	margin: 10px 0px;
+	font-size: 1em;
+}
+
+#contactFormDiv label
+{
+	display: inline;
+	font-size: inherit;
+}
+
+#contactFormDiv input[type="text"], #contactFormDiv input[type="email"]
+{
+	width: 60%;
+}
+
+#contactFormDiv textarea
+{
+	width: 90%;
 }
 
 /*==================================== IMAGES ==========================================================*/
@@ -1271,7 +1288,97 @@ h2.box-widget-title {
 	text-shadow: 0 1px 0 #000000;
 }
 
+/* added by ironbelt.com */
 #credit
 {
 	display: none !important;
+}
+
+#boxes_ul
+{
+	list-style: none;
+}
+#boxes_ul li
+{
+	display: inline-table;
+	min-width: 30%;
+	margin-right: 4%;
+	border: 1px solid #EAEAEA;
+	margin-bottom: 20px;
+}
+#boxes_ul li:last-child
+{
+	margin-right: 0px;
+}
+
+#boxes_ul img
+{
+	padding: 0px 10px;
+}
+
+#boxes_ul h4
+{
+	font-weight: bold !important;
+	color: #333;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+}
+
+#boxes_ul p
+{
+	padding: 0px 10px;
+	font-size: 0.9em;
+	margin-top: 0px;
+}
+
+#contactTable
+{
+	width: 100%;
+}
+
+#contactTable td
+{
+	vertical-align: top;
+	text-align: left;
+}
+
+#contactTable #googlemapsDiv
+{
+	border: 1px solid #EAEAEA;
+	padding: 5px;
+	width: 425px;
+}
+
+
+
+.button
+{
+	background-color: red;
+	vertical-align: baseline;
+	background: none repeat scroll 0 0 #2EA2CC;
+    	border-color: #0074A2;
+    	box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+    	color: #FFFFFF;
+    	text-decoration: none;
+
+
+	-moz-box-sizing: border-box;
+    	border-radius: 3px;
+    	border-style: solid;
+    	border-width: 1px;
+    	cursor: pointer;
+    	display: inline-block;
+    	font-size: 13px;
+    	height: 28px;
+    	line-height: 26px;
+    	margin: 0;
+    	padding: 0 10px 1px;
+    	text-decoration: none;
+    	white-space: nowrap;
+}
+
+.button:hover
+{
+	background-color: #1E8CBE;
 }
