@@ -1342,6 +1342,12 @@ h2.box-widget-title {
 	display: inline-table;
 	float: left;
 	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+#googlemapsDiv iframe
+{
+	width: 425px;
 }
 
 #contactForm
