@@ -1288,7 +1288,9 @@ h2.box-widget-title {
 	text-shadow: 0 1px 0 #000000;
 }
 
-/* added by ironbelt.com */
+
+
+/*==================================== added by ironbelt.com ====================================================*/
 #credit
 {
 	display: none !important;
@@ -1313,7 +1315,8 @@ h2.box-widget-title {
 
 #boxes_ul img
 {
-	padding: 0px 10px;
+	padding: 2px 0px;
+	width: 95%;
 }
 
 #boxes_ul h4
