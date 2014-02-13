@@ -434,6 +434,7 @@ article.post, article.page, article.attachment {
 	margin-top: 0;
 	padding: 0;
 	border: none;
+	display: none; /* ironbelt */
 }
 
 /*==================================== POST AND PAGE CONTENT ===========================================*/
