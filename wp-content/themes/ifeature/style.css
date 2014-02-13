@@ -1335,22 +1335,20 @@ h2.box-widget-title {
 	margin-top: 0px;
 }
 
-#contactTable
-{
-	width: 100%;
-}
-
-#contactTable td
-{
-	vertical-align: top;
-	text-align: left;
-}
-
-#contactTable #googlemapsDiv
+#googlemapsDiv
 {
 	border: 1px solid #EAEAEA;
 	padding: 5px;
-	width: 425px;
+	display: inline-table;
+	float: left;
+	margin-right: 20px;
+}
+
+#contactForm
+{
+	display: inline-table;
+	width: 50%;
+	min-width: 440px;
 }
 
 
