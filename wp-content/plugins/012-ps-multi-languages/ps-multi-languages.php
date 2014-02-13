@@ -1281,7 +1281,7 @@ class ps_multi_languages{
 			$bread_crumb_arr[] = array( 'title' => $tag->name , 'link' => get_tag_link( $tag_id ) );
 		} elseif ( is_author() ) {
 			global $author;
-			$bread_crumb_arr[] = array( 'title' =>  get_author_name( $author ), 'link' => get_author_posts_url( $author ) );
+			$bread_crumb_arr[] = array( 'title' =>  get_the_author_meta( $author ), 'link' => get_author_posts_url( $author ) );
 		} elseif ( is_day() ) {
 			$year = get_query_var( 'year' );
 			$month = get_query_var( 'monthnum' );

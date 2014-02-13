@@ -128,13 +128,15 @@ class ps_multilingual_taxonomy{
 	function admin_custom_taxonomy_add( $taxonomy ){
 		
 		if ( $this->_items ):
-			foreach ( $this->_items as $key => $field ):
-				$func = 'make_' .  $field['type'];
+			foreach ( $this->_items as $key => $field )
+                        {
+                                $type_txabi = (isset($field['type'])) ? $field['type'] : "";
+				$func = 'make_' .  $type_txabi;
 				if ( !method_exists( $this ,  $func ) ){
 					$func = 'make_textfield';
 				}
 				$this->$func($taxonomy, $key , null );	
-			endforeach;
+                        }
 			$this->make_hidden_default_language( );
 		endif;
 
@@ -154,7 +156,8 @@ class ps_multilingual_taxonomy{
 		if ( $this->_items ):
 			foreach ( $this->_items as $key => $field ):
 
-				$func = 'make_' . $field['type'];
+                                $type_txabi = (isset($field['type'])) ? $field['type'] : "";
+				$func = 'make_' . $type_txabi;
 				if ( !method_exists( $this ,  $func ) ){
 					$func = 'make_textfield';
 				}
@@ -172,10 +175,10 @@ class ps_multilingual_taxonomy{
 	
 	function make_hidden_default_language(  ){
 		$flag_icon_path = $this->flags_dir . $this->WPLANGKEY . '.png';
-		if ( $this->url_exists( $flag_icon )):
+		if ( $this->url_exists( $flag_icon_path )):
 			$flag_icon = $flag_icon_path;	
 		endif;
-		$hidden .= '<div><input type="hidden" name="default_language" id="default_language" value="'. $flag_icon .'" />';
+		$hidden = '<div><input type="hidden" name="default_language" id="default_language" value="'. $flag_icon .'" />';
 		$hidden .= '<input type="hidden" name="multilingual-taxonomy-verify-key" id="multilingual-taxonomy-verify-key" value="'. wp_create_nonce('multilingual_taxonomy') .'" /></div>';
 		echo $hidden;	
 	}
@@ -332,9 +335,10 @@ class ps_multilingual_taxonomy{
                             
                         $taxonomy_txabi = ( isset( $_GET['taxonomy'] ) ) ? $_GET['taxonomy'] : "";
 			$current_option = get_option( $taxonomy_txabi . '-' . $key );
-					
+				
+                        $current_option[$term_id] = isset($current_option[$term_id]) ? $current_option[$term_id]: "";	
 			$current_option[$term_id] = ( is_array( $current_option[$term_id] ) ) ? join(',',$current_option[$term_id] ) : $current_option[$term_id] ;
-
+                        
 			$output = isset( $current_option[$term_id] ) ? esc_html( $current_option[$term_id] ) : '&nbsp;';
 
 			esc_html($output);
