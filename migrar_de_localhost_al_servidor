@@ -24,9 +24,18 @@ luego ir a
 http://ironbeltweb.bfgea.com/searchreplacedb2.php
 ticka el quitar las columnas gui
 y buscar
+
 ironbeltweb.com
+
 y reemplazar por 
+
 ironbeltweb.bfgea.com
 
 
-parece q el enlace del logo sigue apuntando mal, cambiarlo ahí.
+mirar esto tb:
+
+/var/www/ironbeltWeb
+
+por esto:
+
+/home/develop/ironbeltweb
