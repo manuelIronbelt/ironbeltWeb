@@ -1410,6 +1410,16 @@ h2.box-widget-title {
 	text-align: right;
 }
 
+.marginTop20px
+{
+    margin-top: 20px;
+}
+
+.marginTop40px
+{
+    margin-top: 40px;
+}
+
 .normalSize{
 	font-size: 1em !important;
 }
