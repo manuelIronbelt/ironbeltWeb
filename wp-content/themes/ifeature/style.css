@@ -1342,27 +1342,59 @@ h2.box-widget-title {
 	margin-top: 0px;
 }
 
+
+#contactDivContainer
+{
+        border: 1px solid #CCC;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	width: 90%;
+        margin-bottom: 40px;
+}
+
+
+#datosContacto
+{        
+    display: inline-block;
+}
+
+#datosContacto .title
+{
+    font-size: 1.8em;
+}
+
 #googlemapsDiv
 {
 	display: inline-table;
 	float: left;
-	margin-right: 3%;
+	margin-right: 7%;
 	margin-bottom: 30px;
-	width: 40%;
+	width: 42%;
 }
 
-#googlemapsDiv iframe
-{
-	border: 1px solid #EAEAEA;
+#googlemapsDiv2
+{	
+        border: 1px solid #CCC;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 	padding: 5px;
-	width: 425px;
+	width: 100%;
+}
+
+#googlemapsDiv2 iframe
+{
+	width: 100%;
+}
+
+#googlemapsDiv2 small
+{
+    display: block;
+    margin: 5px;
 }
 
 #contactForm
 {
 	display: inline-table;
 	width: 50%;
-	min-width: 440px;
 }
 
 
@@ -1420,6 +1452,9 @@ h2.box-widget-title {
     margin-top: 40px;
 }
 
+.big1{
+	font-size: 1.1em !important;
+}
 .normalSize{
 	font-size: 1em !important;
 }
