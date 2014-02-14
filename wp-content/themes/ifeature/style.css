@@ -1391,11 +1391,15 @@ h2.box-widget-title {
     	padding: 0 10px 1px;
     	text-decoration: none;
     	white-space: nowrap;
+        
+        text-decoration: none;
 }
 
 .button:hover
 {
+        color: white;
 	background-color: #1E8CBE;
+        text-decoration: none;
 }
 
 .carousel-control {
@@ -1472,4 +1476,50 @@ h2.box-widget-title {
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+
+
+#staff_ul
+{
+    list-style: none;
+}
+
+#staff_ul li
+{
+    width: 25%;
+    margin-right: 3%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 30px;
+    min-height: 380px;
+}
+
+#staff_ul h1
+{
+    color: #333;
+    font-size: 1.8em;
+}
+
+#staff_ul p
+{
+    margin-top: -10px;
+    font-size: 1.1em;
+}
+
+#staff_ul li:last-child
+{
+    margin-right: 0px;
+}
+
+#youtubeIframe
+{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: top;
 }
