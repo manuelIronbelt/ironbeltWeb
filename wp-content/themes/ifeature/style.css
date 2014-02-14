@@ -1345,11 +1345,7 @@ h2.box-widget-title {
 
 #contactDivContainer
 {
-        border: 1px solid #CCC;
-        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-	padding: 20px;
-	width: 90%;
-        margin-bottom: 40px;
+	width: 100%;
 }
 
 
@@ -1367,9 +1363,9 @@ h2.box-widget-title {
 {
 	display: inline-table;
 	float: left;
-	margin-right: 7%;
+	margin-right: 5%;
 	margin-bottom: 30px;
-	width: 42%;
+	width: 46%;
 }
 
 #googlemapsDiv2
@@ -1394,7 +1390,7 @@ h2.box-widget-title {
 #contactForm
 {
 	display: inline-table;
-	width: 50%;
+	width: 49%;
 }
 
 
