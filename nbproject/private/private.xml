@@ -3,7 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/var/www/ironbeltWeb/wp-content/themes/ifeature/header.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/plugins/012-ps-multi-languages/includes/ps-multilingual-taxonomy.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/plugins/012-ps-multi-languages/config/config.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/plugins/012-ps-multi-languages/ps-multi-languages.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/plugins/012-ps-multi-languages/multilingual_code.txt</file>
+            <file>file:/var/www/ironbeltWeb/wp-includes/functions.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/themes/ifeature/style.css</file>
             <file>file:/var/www/ironbeltWeb/wp-config.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-content/plugins/012-ps-multi-languages/includes/ps-multilingual-edit-post.php</file>
+            <file>file:/var/www/ironbeltWeb/wp-admin/options-permalink.php</file>
         </group>
     </open-files>
 </project-private>
